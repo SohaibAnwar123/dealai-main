@@ -1,0 +1,57 @@
+/* Stepper.css */
+.stepper-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.circle.active {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+
+.circle.completed {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+
+.checkmark {
+  color: white;
+}
+
+.line {
+  height: 2px;
+  background-color: grey;
+  flex-grow: 1;
+  position: absolute;
+  left: 50%;
+  z-index: -1;
+}
+
+.line.completed {
+  background-color: blue;
+}
+
+.title {
+  text-align: center;
+  margin-top: 8px;
+}

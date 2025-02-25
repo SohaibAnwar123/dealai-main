@@ -1,0 +1,146 @@
+.mian-nda {
+    display: flex;
+    min-height: 100vh;
+}
+.dashboard-body {
+    padding: 64px 94px 163px 356px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nda-card {
+    border-radius: 12px;
+    box-shadow: 0.54px 0.54px 55.13px 0px #0E3CB326;
+    background: white;
+    margin-bottom: 100px;
+}
+.nda-card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 18.5px 165px;
+}
+.nda-card-body-card{
+  text-align: center;
+}
+.nda-card-body-card h2{
+    line-height: 1;
+    font-weight: 700;
+    color: #0082CE;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+.nda-card-body-card p{
+    line-height: 1;
+    margin-bottom: 0;
+}
+.nda-card-body-button-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    max-width: 542px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #EBF1FF;
+    text-align: center;
+    border-radius: 70px;
+    padding: 114px 59px 20px 59px;
+    position: relative;
+}
+.nda-card-body-button-card .nda-card-body-button-card-tx{
+    font-weight: 400;
+    font-size: 22px;
+    color: #004AAD;
+    margin-bottom: 132px;
+}
+.nda-card-body-button-card svg{
+position: absolute;
+top: 0;
+transform: translate(-50%, -30%);
+left: 50%;
+}
+.nda-card-body-button-card .nda-button-turn svg{
+position: unset;
+transform: unset;
+}
+.nda-card-body-button-card .flex-nda-turn{
+font-weight: 400;
+color: #8A8A8A;
+font-size: 25px;
+}
+.nda-card-body-button-card .nda-button-turn {
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: #F0F3FB;
+    height: 86px;
+    border-radius: 64px;
+    width: 100%;
+    transition: color 250ms ease; 
+    transition: all 0.3s ease; 
+    border: unset;
+gap: 57px;
+font-size: 25px;
+color: #8A8A8A;
+padding: 0;
+  }
+
+@media screen and (max-width: 1680px) {
+    .dashboard-body {
+        padding: 45px 50px 60px 313px;
+    }
+    .nda-card-body-button-card .nda-card-body-button-card-tx {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+    .nda-card-body-button-card .nda-button-turn {
+ height: 75px;
+ font-size: 20px;
+ gap: 30px;
+    }
+    .nda-card-body-button-card {
+        max-width: 495px;
+        border-radius: 50px;
+        padding: 95px 40px 20px 40px;
+    }
+    
+}
+@media screen and (max-width: 1560px) {
+    .nda-card-body {
+        padding: 18.5px 135px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .dashboard-body {
+        padding: 30px 30px 30px 260px;
+    }
+    .nda-card-body {
+        padding: 12px 120px;
+    }
+    .nda-card-body-button-card .nda-button-turn {
+        height: 60px;
+        font-size: 18px;
+        gap: 19px;
+    }
+    .nda-card-body-button-card .nda-card-body-button-card-tx {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .nda-card-body-button-card {
+        max-width: 420px;
+        border-radius: 25px;
+        padding: 80px 24px 20px 24px;
+    }
+    .nda-card-body-button-card > svg{
+      width: 150px;
+    }
+  
+}
+@media screen and (max-width: 991px) {
+    .nda-card-body {
+        padding: 12px 70px;
+    }
+}

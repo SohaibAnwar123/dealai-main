@@ -1,0 +1,18 @@
+/* src/pages/Dashboard.css */
+.dashboard {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .sideBar {
+    width: 263px; 
+    background-color: #0F46D2; 
+    color: white; 
+    overflow-y: auto; 
+  }
+  
+  .dashboard-content {
+    flex-grow: 1; 
+    overflow-y: auto; 
+  }
+  

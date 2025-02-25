@@ -1,0 +1,74 @@
+.preferences-table {
+    padding: 90px 47px 10px 315px;
+width: 100%;
+
+}
+.preferences-body {
+    width: 100%;
+    
+    border-radius: 12px;
+    background: white;
+  
+    padding: 0px 20px 5px 30px;
+    display: flex;
+    
+    flex-direction: column;
+}
+.preferences-body-spaceBetween{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.preferences-body-spaceBetween h2{
+ font-size: 30px;
+ font-weight: 500;
+ color: #0D3EBA;
+}
+
+@media screen and (max-width: 1680px) {
+    .preferences-table {
+        padding: 50px 50px 10px 313px;
+    }
+    .preferences-table .preferences-body{
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 1370px) {
+    .preferences-body-spaceBetween h2 {
+        font-size: 24px;
+    }
+    .preferences-body-spaceBetween  .button-components-newNDA{
+font-size: 16px;
+padding: 12px 30px;
+    }
+    .preferences-table {
+        padding: 30px 30px 10px 260px;
+    }
+    .preferences-table table th{
+        font-size: 18px;
+        padding: 0 5px;
+    }
+    .preferences-table table td{
+        font-size: 16px;
+    }
+    .preferences-table table th *,.preferences-table table td *{
+        font-size: inherit !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .preferences-body-spaceBetween h2 {
+        font-size: 20px;
+    }
+    .preferences-body-spaceBetween .button-components-newNDA {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .preferences-table {
+        padding: 20px 20px 10px 250px;
+    }
+}

@@ -1,0 +1,318 @@
+@media screen and (max-width: 1560px) {
+    .navWrap {
+        height: 70px;
+    }
+
+    .navWrap .navMain {
+        height: 70px;
+    }
+    .heroWrap {
+        height: calc(100vh - 70px);
+    }
+    .heroContent {
+        max-width: 480px;
+    }
+    .laptopContainer {
+        width: 640px;
+    }
+    .laptopContainer .video {
+        top: 25px;
+        width: 485px;
+        height: 285px;
+    }
+    .turningNDA {
+        padding: 100px 0;
+    }
+    .turningNDA .turningInner {
+        margin-top: 50px;
+    }
+    .privateWrap {
+        padding: 80px 0;
+    }
+    .privateWrap .privateImg {
+        max-width: 500px;
+        // min-width: 500px;
+        // min-height: 500px;
+        // height: 500px;
+    }
+    .innovatorWrap {
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    .innovatorWrap ul h6 {
+        margin-bottom: 6px;
+        min-height: 50px;
+    }
+    .platformWrap {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .cloudWrap {
+        padding: 100px 0;
+    }
+    .cloudWrap .cloudBox {
+        padding: 34px 24px;
+    }
+    .heroContent p {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .navWrap {
+        height: 60px;
+    }
+    .navWrap .navMain {
+        height: 60px;
+    }
+    .heroWrap {
+        height: calc(100vh - 60px);
+    }
+    .heroContent p {
+        padding-right: 60px;
+    }
+    .navWrap .customBtn {
+        padding: 10px 16px;
+    }
+    .turningNDA .turningBox p.fs21{
+        max-width: 200px;
+        width: 100%;
+        margin-left: auto;margin-right: auto;
+    }
+    .turningNDA .turningContent {
+        margin-bottom: 18px;
+        width: 90px;
+        height: 90px;
+    }
+    .laptopContainer {
+        width: 600px;
+    }
+    .laptopContainer .video {
+        top: 23px;
+        width: 454px;
+        height: 270px;
+    }
+    .heroWrap::after {
+        width: 840px;
+    }
+    .heroWrap::before {
+        width: 790px;
+        height: 120px;
+    }
+    .customBtn {
+        padding: 15px 20px;
+    }
+    .privateWrap .privateImg {
+        max-width: 460px;
+        // min-width: 460px;
+        // height: 460px;
+        // min-height: 460px;
+    }
+    .privateWrap .heroContent p {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    .privateWrap {
+        padding: 60px 0;
+    }
+    .innovatorWrap {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .innovatorWrap ul {
+        margin-top: 40px;
+        gap: 50px;
+    }    
+    .platformWrap {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .cloudWrap {
+        padding: 80px 0;
+    }
+    .trialWrap {
+        padding: 40px 0;
+    }
+    .turningNDA .turningContent img {
+max-width: 40px;
+    }
+}
+
+// Ipad pro 
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .heroWrap{
+        height: auto;
+    }
+    .heroWrap .heroInner {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 50px;
+    }
+  
+    .heroContent {
+        max-width: 630px;
+    }
+    .turningNDA {
+        padding: 60px 0;
+    }
+    .innovatorWrap {
+        padding: 60px 0;
+    }
+}
+
+
+//  ipad 
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .mainLogo {
+        max-width: 100px;
+    }
+    .heroWrap {
+        height: auto;
+    }
+    .heroWrap .heroInner {
+        padding-top: 70px;
+        gap: 30px;
+    }
+    .heroContent {
+        max-width: 100%;
+    }
+    .innovatorWrap .titleWrap {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .privateWrap .heroContent {
+        max-width: 100%;
+    }
+    .innovatorWrap .titleWrap h2 {
+        max-width: 100%;
+       text-align: center;
+    }
+    .innovatorWrap .titleWrap p {
+        max-width: 100%;
+        text-align: center;
+    }
+    .innovatorWrap ul {
+        margin-top: 24px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .innovatorWrap ul li {
+        width: calc(50% - 10px);
+    }
+    .innovatorWrap ul h6 {
+        min-height: auto;
+        min-width: auto;
+    }
+    .platformWrap {
+        padding: 60px 0;
+    }
+    .platformWrap .platformBox {
+        width: calc(50% - 15px);
+        padding: 16px 24px;
+    }
+    .cloudWrap {
+        padding: 60px 0;
+    }
+    .cloudWrap .cloudBox {
+        padding: 24px 16px;
+        width: calc(50% - 12px);
+    }
+
+}
+
+//  mobile 
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .navWrap .btnzWrap {
+        gap: 6px;
+    }
+    .mainLogo {
+        max-width: 80px;
+    }
+    .navWrap .customBtn {
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+    .heroWrap::before {
+        width: 520px;
+        height: 55px;
+    }
+    .heroWrap::after {
+        width: 400px;
+        height: 270px;
+    }
+    .heroContent p {
+        margin-top: 8px;
+        margin-bottom: 16px;
+        padding-right: 0;
+    }
+    .customBtn {
+        padding: 10px 12px;
+        gap: 6px;
+        svg{
+            width: 18px;
+        }
+    }
+    .heroWrap .heroInner {
+      padding-bottom: 45px;
+    }
+    .turningNDA {
+        padding: 40px 0;
+    }
+    .turningNDA .turningInner {
+        margin-top: 40px;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .turningNDA .turningBox {
+        max-width: 100%;
+    }
+    .turningNDA .turningContent {
+        margin-bottom: 10px;
+    }
+    .turningNDA .dottedLine {
+        width: 100%;
+        height: 0px;
+        left: 10%;
+        top: 55%;
+        transform: translate(0%, 0%) rotate(90deg);
+        transform-origin: top;
+        display: none !important;
+    }
+
+    @keyframes dottedLine1 {
+        from {
+            height: 0;
+        }
+    
+        to {
+            height: 100%;
+        }
+    }
+    .privateWrap .heroContent p {
+        margin-bottom: 16px;
+    }
+    .platformWrap .platformBox {
+        width: calc(50% - 12px);
+        padding: 12px 16px;
+    }
+    .cloudWrap .cloudBox {
+        width: 100%;
+    }
+    .laptopContainer .video {
+        top: 13px;
+        width: 266px;
+        height: 158px;
+    }
+    .privateWrap .privateImg {
+        max-width: 330px;
+        // min-width: 330px;
+        // height: 330px;
+        // min-height: 330px;
+    }
+}

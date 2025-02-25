@@ -1,0 +1,44 @@
+.table-container {
+  width: 100%;
+  border: 8px;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.55);
+  box-shadow: 2px 0px 4px 0px #00000040, 2px 2px 13px 0px #0E3CB326 inset;
+  height: fit-content;
+  overflow-y: auto;
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Customize the scrollbar */
+.table-container::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the track */
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover color */
+}

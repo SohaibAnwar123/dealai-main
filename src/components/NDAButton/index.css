@@ -1,0 +1,28 @@
+
+.nda-button-turn {
+    padding: 34px 79px 34px 47px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center; 
+    background: #F0F3FB;
+    
+   
+    color: #fff; 
+    border-radius: 64px;
+  
+    width: fit-content;
+    position: relative; 
+    overflow: hidden; 
+    transition: color 250ms ease;
+    text-wrap: nowrap;
+    transition: all 0.3s ease; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: unset;
+    padding-left: 20px;
+    padding-right:20px
+  }
+.flex-nda-turn {
+display: flex;
+gap: 57px;
+align-items: center;
+}

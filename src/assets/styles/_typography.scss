@@ -1,0 +1,129 @@
+:root {
+    --fs80: 80px;
+    --fs70: 70px;
+    --fs64: 64px;
+    --fs56: 56px;
+    --fs48: 48px;
+    --fs40: 40px;
+    --fs36: 36px;
+    --fs30: 30px;
+    --fs24: 24px;
+    --fs21: 21px;
+    --fs18: 18px;
+    --fs16: 16px;
+    --mb72: 72px;
+    --primaryFonts: 'Roboto';
+    --secondaryFonts: 'Poppins';
+}
+
+.secondFonts {
+    font-family: var(--secondaryFonts);
+}
+
+.mb72 {
+    margin-bottom: var(--mb72);
+}
+
+.fs80 {
+    font-size: var(--fs80);
+}
+.fs64 {
+    font-size: var(--fs64);
+}
+
+.fs56 {
+    font-size: var(--fs56);
+}
+
+.fs48 {
+    font-size: var(--fs48);
+}
+
+.fs40 {
+    font-size: var(--fs40);
+}
+.fs30 {
+    font-size: var(--fs30);
+}
+
+.fs24 {
+    font-size: var(--fs24);
+}
+.fs21 {
+    font-size: var(--fs21);
+}
+
+.fs18 {
+    font-size: var(--fs18);
+}
+
+.fs16 {
+    font-size: var(--fs16);
+}
+.fs36 {
+    font-size: var(--fs36);
+}
+.fs70 {
+    font-size: var(--fs70);
+}
+@media screen and (max-width:1680px) {
+    :root {
+        --fs64: 45px;
+        --fs24: 20px;
+        --fs70: 50px;
+        --fs30: 22px;
+    }
+}
+@media screen and (max-width:1560px) {
+    :root {
+        --fs80: 60px;
+        --fs64: 40px;
+        --fs56: 44px;
+        --fs36: 28px;
+        --fs40: 34px;
+        --fs24: 19px;
+    }
+}
+@media screen and (max-width:1370px) {
+    :root {
+        --fs80: 44px;
+        --fs56: 36px;
+        --fs48: 30px;
+        --fs64: 30px;
+        --fs40: 28px;
+        --fs30: 24px;
+        --fs21: 18px;
+        --mb72: 40px;
+        --fs24: 18px;
+        --fs36: 26px;
+        --fs70: 40px;
+        --fs30: 16px;
+    }
+}
+@media screen and (max-width:991.98px) {
+    :root {
+        --fs56: 28px;
+        --fs48: 26px;
+        --fs40: 24px;
+        --fs21: 16px;
+        --mb72: 30px;
+        --fs24: 16px;
+        --fs30: 20px;
+        --fs36: 24px;
+    }
+}
+@media screen and (max-width:575.98px) {
+    :root {
+        --fs56: 24px;
+        --fs48: 22px;
+        --fs40: 20px;
+        --fs21: 15px;
+        --mb72: 20px;
+        --fs16: 14px;
+        --fs80: 30px;
+        --fs18: 16px;
+        --fs64: 24px;
+        --fs30: 18px;
+        --fs36: 19px;
+    }
+}

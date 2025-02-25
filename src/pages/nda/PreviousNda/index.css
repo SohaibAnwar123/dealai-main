@@ -1,0 +1,20 @@
+.preferences-body-table-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+@media screen and (max-width: 1680px) {
+    .preferences-body-table-flex {
+        margin-bottom: 25px;
+    }
+    .preferences-body-table-flex p{
+       font-size: 20px;
+    }
+}
+@media screen and (max-width: 1370px) {
+    .preferences-body-table-flex p{
+       font-size: 18px;
+    }
+}

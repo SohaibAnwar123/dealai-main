@@ -1,0 +1,134 @@
+.step-indicator-custom::after {
+  content: attr(data-step-title);
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  text-wrap: nowrap;
+}
+
+.Progress-bar {
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainInner .Mui-active.css-vnkopk-MuiStepLabel-iconContainer {
+  border-color: #307FE2;
+  background-color: #fff;
+}
+
+.mainInner .Mui-active .css-z7uhs0-MuiStepConnector-line {
+  border-color: #307FE2;
+}
+
+.mainInner .Mui-disabled .css-z7uhs0-MuiStepConnector-line {
+  border-color: #D9D9D9;
+}
+
+.mainInner .MuiStepConnector-line {
+  border-width: 4px;
+}
+
+.mainInner .css-zpcwqm-MuiStepConnector-root {
+  top: 15px;
+  left: calc(-50% + 0px);
+  right: calc(50% + 0px);
+}
+
+.mainInner .css-vnkopk-MuiStepLabel-iconContainer {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 7px solid #D9D9D9;
+  z-index: 1;
+}
+
+.mainInner .css-1m13l5j-MuiSvgIcon-root-MuiStepIcon-root {
+  display: none;
+}
+
+.mainInner .Mui-completed.css-vnkopk-MuiStepLabel-iconContainer {
+  background-color: #307FE2;
+  border-color: #307FE2;
+  position: relative;
+}
+
+.mainInner .Mui-completed .MuiStepConnector-line {
+  border-color: #307FE2;
+}
+
+.mainInner .Mui-completed.css-vnkopk-MuiStepLabel-iconContainer::before {
+  content: "";
+  background-image: url(../../assets/svg/tickIcon.svg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center center;
+}
+
+.mainInner .css-1fy0mul-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  margin-top: 28px;
+  font-weight: 400;
+  color: #353535;
+  font-size: 20px;
+}
+
+@media (max-width: 1680px) {
+  .mainInner .css-1fy0mul-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1560px) {
+  .mainInner .css-vnkopk-MuiStepLabel-iconContainer {
+    width: 30px;
+    height: 30px;
+  }
+
+  .mainInner .Mui-completed.css-vnkopk-MuiStepLabel-iconContainer::before {
+    background-size: 13px;
+  }
+
+  .mainInner .css-zpcwqm-MuiStepConnector-root {
+    top: 11px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .mainInner .css-1fy0mul-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  .mainInner .css-vnkopk-MuiStepLabel-iconContainer {
+    border: 5px solid #D9D9D9;
+    width: 25px;
+    height: 25px;
+  }
+
+  .mainInner .MuiStepConnector-line {
+    border-width: 3px;
+  }
+
+  .mainInner .css-zpcwqm-MuiStepConnector-root {
+    top: 10px;
+  }
+
+  .mainInner .Mui-completed.css-vnkopk-MuiStepLabel-iconContainer::before {
+    background-size: 11px;
+  }
+}
+@media (max-width: 575px) {
+  .mainInner .css-1fy0mul-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    font-size: 12px;
+  }
+}

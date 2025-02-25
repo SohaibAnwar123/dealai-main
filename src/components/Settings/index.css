@@ -1,0 +1,38 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 4px;
+}
+.card-headerde {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+    .card-headerde:first-child {
+      border-radius: 3px 3px 0 0; }
+.card .card-body {
+    padding: 20px;
+    background: transparent;
+    border-radius: 15px;
+    flex: 1 1 auto;
+
+}
+.settings-menu a {
+    margin: 10px;
+}
+.ant-tabs-tab-btn {
+    font-family: "Poppins"; /* Change to your desired font */
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+@media screen and (max-width: 1370px) {
+    .ant-tabs .ant-tabs-tab{
+        padding: 8px 0;
+    }  
+}

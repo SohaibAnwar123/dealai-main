@@ -1,0 +1,248 @@
+.AddFirm {
+    margin-top: 32px 100px 32px 143px;
+}
+
+.AddFirmflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AddFirmflexText {
+    padding-top: 130px;
+    max-width: 716px;
+    width: 100%;
+}
+
+.AddFirmflexText .AddFirmflexText__ {
+    color: #999999;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 34px;
+}
+
+.AddFirmflex .form-container {
+    margin: 0;
+}
+
+.flex-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.button-firm {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button-firm .button-components {
+    height: 51px;
+    border-radius: 70px;
+    padding: 0 40px;
+}
+
+.button-firm .button-components:first-of-type {
+    background: unset;
+    color: #0F46D2;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 24px 67px 23px 66px;
+    border-radius: 12px;
+    box-shadow: 0 32px 40px #E5EAF7;
+    background: white;
+    margin-top: 32px;
+    margin-right: 100px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+    width: 32%;
+}
+
+.form-container-firm {
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 32px;
+    margin-right: 100px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+    width: 92%;
+}
+
+.input-group-select {
+    display: flex;
+    gap: 52px;
+    margin-bottom: 14px;
+}
+
+.input-group select::placeholder {
+    color: #8A8A8A;
+    font-size: 15px;
+}
+
+.input-group input::placeholder {
+    color: #8A8A8A;
+    font-size: 12px;
+}
+
+.uploader {
+    display: 'flex';
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.input-group-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1680px) {
+    .AddFirmflexText .AddFirmflexText__ {
+        margin-bottom: 34px;
+        margin-top: 20px;
+    }
+
+    .button-firm .button-components {
+        height: 48px;
+        padding: 0 34px;
+        font-size: 16px;
+    }
+
+    .AddFirmflex .form-container {
+        padding: 16px 30px;
+    }
+
+    .form-container-firm {
+        margin-top: 16px;
+        margin-right: 0px;
+        margin-bottom: 16px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .form-container-firm form .input-group {
+        margin-bottom: 0;
+    }
+
+    .form-container-firm form .button-components {
+        font-size: 18px;
+    }
+
+    .form-container-firm form .button-components * {
+        font-size: inherit;
+    }
+
+    .form-container-firm form canvas {
+        height: 180px !important;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .AddFirmflex .form-container .input-group {
+        margin-bottom: 14px;
+    }
+
+    .AddFirmflex .form-container .input-group p {
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+
+    .AddFirmflex .form-container .input-group-flex p {
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 1500px) {
+    .AddFirmflexText .AddFirmflexText__ {
+        margin-bottom: 24px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .AddFirmflexText {
+        padding-top: 90px;
+        max-width: 550px;
+    }
+
+    .button-firm .button-components {
+        height: 44px;
+        padding: 0 30px;
+        font-size: 15px;
+    }
+
+    .AddFirmflex .form-container .input-group label p {
+        font-size: 13px;
+    }
+
+    .AddFirmflex .form-container .input-group input {
+        height: 38px;
+    }
+
+    .AddFirmflex .form-container .input-group select {
+        height: 38px;
+    }
+
+    .AddFirmflex .form-container .input-group-flex {
+        gap: 0;
+    }
+
+    .AddFirmflex .form-container .input-group-flex select {
+        height: 38px;
+    }
+
+    .AddFirmflex .form-container .input-group-flex .input-group-select {
+        gap: 20px;
+    }
+
+    .AddFirmflex .form-container .input-group canvas {
+        height: 150px;
+    }
+
+    .form-container-firm form .input-group label p {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .form-container-firm form .input-group input {
+        font-size: 15px;
+        height: 40px;
+    }
+    .form-container-firm form canvas {
+        height: 150px !important;
+    }
+    .form-container-firm form .button-components {
+        font-size: 16px;
+    }
+    .form-container-firm form .input-group .input-group-select {
+        gap: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 1199.98px) {
+    .form-container-firm form .input-group .input-group-select {
+        gap: 10px;
+    }
+    .AddFirmflexText {
+        padding-top: 0px;
+        max-width: 100%;
+    }
+
+    .AddFirmflex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .AddFirmflex .form-container {
+        width: 100%;
+    }
+}

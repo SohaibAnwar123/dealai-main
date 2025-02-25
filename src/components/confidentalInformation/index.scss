@@ -1,0 +1,106 @@
+.preference-body {
+    .configDesc {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .preferences-detail-box, .input-preferences {
+        padding: 15px 60px 15px 15px;
+
+        p {
+            margin-bottom: 0;
+            line-height: 1.3;
+            color: #353535;
+            font-weight: 500;
+        }
+    }
+
+    .preferences-detail-checkbox {
+        margin-left: 0;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .preferences-detail-checkbox-detail {
+        svg {
+            width: 17.5px;
+            height: 17.5px;
+        }
+    }
+    .input-preferences{
+        margin-top: 16px;
+        gap: 16px;
+    }
+    .input-preference {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        textarea{
+            font-size: 22px !important;
+            height: 156px;
+            color: #8A8A8A;
+            &::placeholder{
+                font-size: inherit;
+                font-weight: inherit;
+            }
+        }
+    }
+    
+    
+}
+@media screen and (max-width: 1680px) {
+    .preference-body .configDesc {
+        margin-top: 12px;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+    .preference-body .preferences-detail-box, .preference-body .input-preferences {
+        padding: 10px 40px 10px 10px;
+    }
+    .preference-body .preferences-detail-checkbox {
+        margin-left: 0;
+        padding-left: 16px;
+        padding-top: 16px;
+        .preferences-detail-checkbox-detail {
+            gap: 8px;
+        }
+    }
+    .preference-body .input-preferences {
+        margin-top: 8px;
+        gap: 8px;
+    }
+    .preference-body .input-preference textarea {
+        font-size: 16px !important;
+        padding: 5px 16px !important;
+    }
+}
+@media screen and (max-width: 1370px) {
+    .preference-body .preferences-detail-box p, .preference-body .input-preferences p {
+        font-size: 15px;
+    }
+    .preference-body .configDesc {
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    .preference-body .preferences-detail-checkbox {
+        padding-left: 10px;
+        padding-top: 10px;
+        gap: 8px;
+    }
+    .preference-body .input-preference textarea {
+    height: 130px !important;
+    padding: 4px 10px !important;
+    }
+    .preference-body .preferences-detail-checkbox-detail svg {
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+}
+@media screen and (max-width: 1198.99px) {
+    .preference-body .preferences-detail-box, .preference-body .input-preferences {
+        padding: 10px 0px;
+    }
+}
+

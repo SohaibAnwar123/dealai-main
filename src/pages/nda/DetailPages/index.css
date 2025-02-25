@@ -1,0 +1,70 @@
+.preferences-body-spaceBetween-text {
+    margin-left: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.document-prview-section {
+    display: flex;
+    flex-direction: row;
+    gap: 116px;
+    margin-right: 45px;
+    margin-top: 57px;
+}
+.dcument-section {
+    display: flex;
+    margin-top: 26px;
+    flex-direction: row;
+}
+.preferences-body-spaceBetween-text .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+  }
+  .document-preview-section {
+    display: flex;
+    gap: 80px; 
+  }
+  
+  .download-item {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .download-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 84px;
+    color: lightgrey;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .download-item:hover .download-icon {
+    display: block;
+  }
+
+  .footer-exe {
+    background-color: #F0F3FB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 224px;
+    padding-right: 8px;
+    padding-left: 24px;
+
+    margin-top: 22px;
+    border-radius: 8px;
+  }
+  .summary ul {
+    list-style: unset !important;
+}

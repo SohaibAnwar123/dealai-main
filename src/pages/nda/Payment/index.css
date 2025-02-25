@@ -1,0 +1,187 @@
+.main .mainInner{
+    max-width: 90%;
+ margin-left: auto;margin-right: auto;
+ padding-top: 90px;
+ padding-bottom: 110px;
+ padding-left: 10px;
+ padding-right: 10px;
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ justify-content: center;
+}
+.payment-card {
+    margin:68px 52px 68px 52px;
+    background-color: #fff;
+    padding:0px 96px 130px 76px;
+    border-radius: 12px;
+    background: white;
+}
+.payment-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-main {
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+}
+.card-paypal {
+    border-radius: 12px;
+    padding:1px 23px 36px 0px;
+    /* box-shadow: 0 32px 40px #E5EAF7; */
+    background: white;
+   
+}
+.card-monthly {
+    border-radius: 12px;
+    padding:53px 63px 59px 69px;
+    /* box-shadow: 0 32px 40px #E5EAF7; */
+    background: white;
+    width: 45%;
+}
+.card-paypal-body {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.card-paypal-body-auto {
+  margin-top: 26px;
+
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8A8A8A;
+    margin-top: 38px;
+    margin-bottom: 51px;
+
+}
+.divider-line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8A8A8A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #8A8A8A;
+    flex: 1;
+
+}
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #8A8A8A;
+}
+
+.divider::before {
+    margin-right: 10px;
+}
+
+.divider::after {
+    margin-left: 10px;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 39px;
+    height: 66px;
+}
+.form-group input {
+    padding-left: 24px; 
+}
+
+.form-group input::placeholder {
+    color: #8A8A8A;
+    font-size: 15px;
+}
+.form-group-ccv label {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.form-group-ccv input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 39px;
+    height: 66px;
+}
+.form-group-ccv input {
+    padding-left: 24px;
+}
+
+.form-group-ccv input::placeholder {
+    color: #353535; 
+    font-size: 20px;
+ 
+}
+.flex {
+    display: flex;
+    gap: 64px;
+}
+.cvv-input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 22px;  
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); 
+    text-security: disc; 
+    -webkit-text-security: disc;
+}
+
+.cvv-input::placeholder {
+    color: black !important; 
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.payment-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.payment-section-space-between {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.trial-button {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payment-due {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text{
+    margin-top: 22px;
+    max-width: 414px;
+    align-self: center;
+    text-align: center;
+}
+@media screen and (max-width: 1199.98px) {
+    .main .mainInner{
+        justify-content: start;
+    }
+}

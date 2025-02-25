@@ -1,0 +1,28 @@
+
+    .nda-button {
+        padding: 11px 23px 11px 23px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center; 
+        background: linear-gradient(180deg, #FFFFFF 0%, #DADADA 100%);
+        
+        
+        color: #fff; 
+        border-radius: 6px;
+      
+        width: fit-content;
+        position: relative; 
+        overflow: hidden; 
+        transition: color 250ms ease; 
+        text-wrap: nowrap;
+        transition: all 0.3s ease; 
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        border: unset;
+        margin-left: 40px;
+      }
+.flex-nda {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}

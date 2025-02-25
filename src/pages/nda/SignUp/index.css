@@ -1,0 +1,258 @@
+.login-card {
+    background-color: #fff;
+    width: 90%;
+    max-width: 1320px;
+    border-radius: 12px;
+    box-shadow: 0 32px 40px #E5EAF7;
+    background: white;
+    margin-top: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.login-card-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 93px;
+    padding-bottom: 86px;
+    max-width: 462px;
+    width: 100%;
+    margin-left: auto;margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login-card-detail-body {
+    max-width: 273px;
+    width: 100%;
+    margin-left: auto;margin-right: auto;
+}
+
+.login-card-detail-body-text {
+    color: #0D0D0D;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login-card-detail .input-group{
+    gap: 10px;
+margin-bottom: 10px;
+}
+.login-card-detail .input-group:first-of-type{
+    margin-bottom: 18px;
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 13, 13, 1);
+}
+
+.login-card-detail .login-card-fields input{
+    height: 46px;
+    font-size: 16px;
+}
+.login-card-detail .login-card-fields input[type="checkbox"]{
+    height: auto;
+}
+
+input {
+    border-radius: 8px !important;
+}
+
+input:focus {
+    border-color: #0D3EBA; 
+    outline: none;
+}
+
+.help-text {
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    font-weight: 400;
+}
+.help-text p{
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.help-text a {
+    color: #0F46D2;
+}
+
+.help-text span a {
+    font-weight: 500;
+}
+
+.login-card-fields {
+    width: 100%;
+}
+
+.input-group-button {
+margin-top: 27px;
+width: fit-content;
+margin-left: auto;margin-right: auto;
+margin-bottom: 38px;
+}
+.input-group-button .button-components-login{
+height: 66px;
+padding: 0 67px;
+font-size: 24px;
+}
+
+.forgot-password-main {
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rememberMe {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1680px){
+    .login-card-detail-body {
+        max-width: 180px;
+    }
+    .login-card-detail {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .login-card-detail-body-text {
+        margin-top: 14px;
+        margin-bottom: 25px;
+    }
+    .input-group-button .button-components-login {
+        height: 60px;
+        padding: 0 45px;
+        font-size: 20px;
+    }
+    .input-group-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1560px){
+    .login-card-detail-body {
+        max-width: 145px;
+    }
+    .input-group-button .button-components-login {
+        height: 52px;
+        padding: 0 36px;
+        font-size: 18px;
+    }
+    
+}
+@media (max-width: 1370px){
+    .login-card-detail-body {
+        max-width: 105px;
+    }
+    .login-card-detail {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .login-card-detail-body-text {
+        margin-top: 6px;
+        margin-bottom: 16px;
+        line-height: 1.2;
+        font-size: 15px;
+    }
+    .login-card-detail .input-group {
+        gap: 5px;
+    }
+    input[type="email"], input[type="password"] {
+        padding: 7px;
+    }
+    .login-card-detail .login-card-fields input{
+        height: 40px;
+        font-size: 14px;
+    }
+    .input-group-button .button-components-login {
+        height: 45px;
+        padding: 0 30px;
+        font-size: 16px;
+    }
+    .help-text {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .login-form {
+        padding: 20px;
+        width: 100%;
+    }
+    .login-card {
+        margin-top: 50px;
+    }
+    .login-card-detail-body {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 575px) {
+    .login-card-detail {
+        height: auto;
+        max-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .login-form {
+        padding: 10px;
+        width: 100%;
+    }
+    .input-group {
+        margin-bottom: 10px;
+    }
+    .login-card-fields {
+        width: 100%;
+    }
+}
+.password-input-wrapper {
+  position: relative;
+  }
+  
+  .password-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  

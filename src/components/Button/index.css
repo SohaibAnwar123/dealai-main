@@ -1,0 +1,155 @@
+.button-components {
+  padding: 11px 17px 11px 17px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(360deg, #0D3EBA -0.72%, #0082CE 100%);
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  transition: color 250ms ease;
+  text-wrap: nowrap;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: unset;
+}
+
+.button-components-newNDA {
+  padding: 14px 40px 14px 40px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(360deg, #0D3EBA -0.72%, #0082CE 100%);
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  transition: color 250ms ease;
+  text-wrap: nowrap;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: unset;
+  height: fit-content;
+}
+
+.configure-button {
+  padding: 36px 57px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(360deg, #0D3EBA -0.72%, #0082CE 100%);
+  color: #fff;
+  border-radius: 86px;
+  font-size: 28px;
+  line-height: 1.4;
+  position: relative;
+  overflow: hidden;
+  transition: color 250ms ease;
+  text-wrap: nowrap;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: unset;
+  width: fit-content;
+}
+
+.button-components-login {
+  padding: 22px 62px 22px 62px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(360deg, #0D3EBA -0.72%, #0082CE 100%);
+  color: #fff;
+  border-radius: 36px;
+  font-size: 24px;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  transition: color 250ms ease;
+  text-wrap: nowrap;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: unset;
+}
+
+.button-components-payment {
+  padding: 18px 75px 18px 75px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(360deg, #0D3EBA -0.72%, #0082CE 100%);
+  color: #fff;
+  border-radius: 31px;
+  font-size: 20px;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  transition: color 250ms ease;
+  text-wrap: nowrap;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: unset;
+}
+
+.button-components-trial {
+  padding: 11px 17px 11px 17px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #33B4FF;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  transition: color 250ms ease;
+  text-wrap: nowrap;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: unset;
+}
+
+.button-components-back {
+  width: 142px;
+  height: 46px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #0D3EBA;
+  border-radius: 30px;
+  border: 1px solid #000;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: color 250ms ease;
+  text-wrap: nowrap;
+  transition: all 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1680px) {
+  .configure-button {
+    padding: 24px 45px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1370px) {
+  .configure-button {
+    padding: 18px 35px;
+    font-size: 18px;
+}
+}

@@ -1,0 +1,113 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #0D0D0D;
+     height: 100vh; 
+    background-color: #0F46D2;
+    position: fixed;
+    width: 263px;
+}
+
+.sidebar-header {
+    padding-top: 21px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.nav-list a {
+    display: flex;
+    align-items: center; 
+    color: white; 
+    text-decoration: none; 
+    margin-bottom: 20px; 
+   
+}
+.nav-list svg{
+   width: 31px;
+   height: auto;
+   font-size: 100% !important;
+}
+.nav-list svg path{
+   width: 100%;
+}
+.navLinkLogout {
+    display: flex;
+    align-items: center; 
+    color: white; 
+    text-decoration: none; 
+    margin-bottom: 20px; 
+}
+.nav-list a p {
+    margin-left: 12px; 
+}
+
+.nav-list a.active {
+    border-bottom: none;
+    background-color: #0432A6;
+    border-left: 3px solid white;
+    height:46px
+}
+
+
+.navLinkLogout svg {
+    color:#fff;
+    opacity:0.6
+}
+.sidebarLogo {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #0D0D0D;
+    margin-bottom: 27px;
+}
+.sidebar-header .nda-button{
+    height: 49px;
+    margin-right: 20px;
+}
+.sidebar-header .nda-button .flex-nda{
+gap: 11px;
+}
+
+@media screen and (max-width: 1370px) {
+    .sidebarLogo svg{
+   width: 130px;
+    }
+    .sideBar {
+        width: 230px;
+    }
+    .sidebarLogo {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .sidebar-header .nda-button {
+        margin-right: 0;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .sidebar-header .nda-button *{
+        font-size: inherit;
+    }
+    .nav-list {
+        margin-top: 30px;
+    }
+    .nav-list a > div{
+margin-left: 20px !important;
+font-size: 15px;
+    }
+    .nav-list .navLinkLogout > div{
+margin-left: 20px !important;
+font-size: 15px;
+    }
+    .nav-list .navLinkLogout > div *{
+        font-size: inherit;
+    }
+    .nav-list a > div *{
+font-size: inherit;
+    }
+    .nav-list svg{
+        width: 25px;
+     }
+}

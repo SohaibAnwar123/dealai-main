@@ -1,0 +1,144 @@
+.top-bar-button {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 34px;
+    flex-direction: column;
+}
+.buttons {
+    display: flex;
+    gap: 27px;
+    justify-content: end;
+}
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.mainContainerText{
+    display: flex;
+
+    flex-direction: column;
+}
+
+.nda-container {
+    max-width: 1612px;
+    width: 100%;
+    margin-left: auto;margin-right: auto;
+}
+.container-home-nav {
+    max-width: 1528px;
+    width: 100%;
+    margin-left: auto;margin-right: auto; 
+}
+.container-home {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-right: 65px;
+    min-height: 1200px;
+    
+}
+.mainContainerDetail {
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+.list {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.list li {
+    display: flex;
+    align-items: center;
+   
+    gap: 5px;
+}
+.justify-main {
+    display:flex;
+}
+.container-home{
+    min-height: 100vh; 
+}
+
+.mainContainer {
+    padding: 2vh 0; 
+}
+
+
+.buttons {
+    margin-bottom: 4vh; 
+}
+
+@media (min-width: 1200px) {
+    .container-home {
+        padding-right: 65px; 
+    }
+    .mainContainerText .Typography {
+        font-size: 90px; 
+    }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1199px) {
+    .top-bar-button, .buttons, .mainContainer, .mainContainerText {
+        flex-direction: column;
+    }
+    .mainContainerText .Typography {
+        font-size: 50px; 
+    }
+    .container-home {
+        padding: 0 20px;
+    }
+    .mainContainerDetail .Typography {
+        font-size: 20px; 
+    }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 767px) {
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mainContainerText .Typography {
+        font-size: 40px; 
+    }
+    .mainContainerDetail .Typography, .list li .Typography {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-home {
+        padding: 0 10px; 
+    }
+    .mainContainerText button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+/* Medium screens (tablets) */
+@media (max-width: 1199px) {
+    .mainContainer {
+        padding-top: 10vh; 
+        padding-bottom: 10vh;
+    }
+    .mainContainerText, .mainContainerDetail {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .mainContainerText .Typography {
+        margin-top: 5vh; 
+        margin-bottom: 5vh;
+    }
+    .buttons {
+        margin-bottom: 5vh;
+    }
+}
